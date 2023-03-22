@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TimeRegistrationApp.MainPage">
+
+    <Grid VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+        <StackLayout>
+
+            <!-- Combobox -->
+            <Label Text="Select Project:" />
+            <Picker Margin="10">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Placeholder 1</x:String>
+                        <x:String>Placeholder 2</x:String>
+                        <x:String>Placeholder 3</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <!-- Employee ID Input Field -->
+            <Label Text="Employee ID:" />
+            <Entry Placeholder="Enter Employee ID" Margin="10" />
+
+            <!-- Minutes Input Field -->
+            <Label Text="Minutes:" />
+            <Entry Placeholder="Enter Minutes" Margin="10" />
+
+            <!-- Add Time Button -->
+            <Button Text="Add Time" Margin="10" />
+            
+            
+        </StackLayout>
+    </Grid>
+
+</ContentPage>
