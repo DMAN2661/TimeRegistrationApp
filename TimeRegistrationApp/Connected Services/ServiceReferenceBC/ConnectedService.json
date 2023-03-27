@@ -1,0 +1,16 @@
+{
+  "ExtendedData": {
+    "inputs": [
+      "http://mybc:7047/BC/WS/CRONUS%20USA%2C%20Inc./Codeunit/AppService"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "namespaceMappings": [
+      "*, ServiceReferenceBC"
+    ],
+    "targetFramework": "net7.0",
+    "typeReuseMode": "None"
+  }
+}
