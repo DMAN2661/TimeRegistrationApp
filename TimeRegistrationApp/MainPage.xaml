@@ -8,26 +8,19 @@
 
             <!-- Combobox -->
             <Label Text="Select Project:" />
-            <Picker Margin="10">
-                <Picker.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>Placeholder 1</x:String>
-                        <x:String>Placeholder 2</x:String>
-                        <x:String>Placeholder 3</x:String>
-                    </x:Array>
-                </Picker.ItemsSource>
+            <Picker Margin="0" x:Name="ProjectPicker">
             </Picker>
 
             <!-- Employee ID Input Field -->
             <Label Text="Employee ID:" />
-            <Entry Placeholder="Enter Employee ID" Margin="10" />
+            <Entry Placeholder="Enter Employee ID" Margin="0" x:Name="EmployeeIdEntry" />
 
             <!-- Minutes Input Field -->
             <Label Text="Minutes:" />
-            <Entry Placeholder="Enter Minutes" Margin="10" />
+            <Entry Placeholder="Enter Minutes" Margin="0" x:Name="MinutesEntry" />
 
             <!-- Add Time Button -->
-            <Button Text="Add Time" Margin="10" />
+            <Button Text="Add Time" Margin="10" Clicked="AddTimeBtn" />
             
             
         </StackLayout>
